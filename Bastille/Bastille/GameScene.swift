@@ -42,7 +42,7 @@ class GameScene: SKScene {
     }
 
     func addNode(node: SKNode, atWorldLayer layer: WorldLayer) {
-        let layerNode = layers[layer.toRaw()]
+        let layerNode = layers[layer.rawValue]
         
         layerNode.addChild(node)
     }
