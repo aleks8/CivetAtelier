@@ -23,6 +23,8 @@
 		F397127319F1B38B00B8C45D /* Unit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F397127219F1B38B00B8C45D /* Unit.swift */; };
 		F397127519F1B39E00B8C45D /* Villager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F397127419F1B39E00B8C45D /* Villager.swift */; };
 		F397127719F1B8B800B8C45D /* character.png in Resources */ = {isa = PBXBuildFile; fileRef = F397127619F1B8B800B8C45D /* character.png */; };
+		F3B1D6E11A811B52007759E2 /* villager.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B1D6E01A811B52007759E2 /* villager.png */; };
+		F3CAAA341A6EC4BC00BE54E1 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CAAA331A6EC4BC00BE54E1 /* Map.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,8 @@
 		F397127219F1B38B00B8C45D /* Unit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Unit.swift; sourceTree = "<group>"; };
 		F397127419F1B39E00B8C45D /* Villager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Villager.swift; sourceTree = "<group>"; };
 		F397127619F1B8B800B8C45D /* character.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = character.png; sourceTree = "<group>"; };
+		F3B1D6E01A811B52007759E2 /* villager.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = villager.png; sourceTree = "<group>"; };
+		F3CAAA331A6EC4BC00BE54E1 /* Map.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +143,7 @@
 				F30BC41519DC8AD100D97DB7 /* GrassQuick.png */,
 				F30BC41E19DF510200D97DB7 /* pine-half08.png */,
 				F397127619F1B8B800B8C45D /* character.png */,
+				F3B1D6E01A811B52007759E2 /* villager.png */,
 			);
 			name = Graphics;
 			path = Bastille;
@@ -152,6 +157,7 @@
 				F30BC41C19DC8DF400D97DB7 /* Tile.swift */,
 				F397127219F1B38B00B8C45D /* Unit.swift */,
 				F397127419F1B39E00B8C45D /* Villager.swift */,
+				F3CAAA331A6EC4BC00BE54E1 /* Map.swift */,
 			);
 			name = Sprites;
 			sourceTree = "<group>";
@@ -255,6 +261,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3B1D6E11A811B52007759E2 /* villager.png in Resources */,
 				F30BC3FF19DC845900D97DB7 /* Images.xcassets in Resources */,
 				F30BC3F619DC845900D97DB7 /* GameScene.sks in Resources */,
 				F30BC41F19DF510200D97DB7 /* pine-half08.png in Resources */,
@@ -278,6 +285,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3CAAA341A6EC4BC00BE54E1 /* Map.swift in Sources */,
 				F30BC41B19DC8C6000D97DB7 /* Tree.swift in Sources */,
 				F397127519F1B39E00B8C45D /* Villager.swift in Sources */,
 				F30BC3F819DC845900D97DB7 /* GameScene.swift in Sources */,
